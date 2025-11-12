@@ -1,0 +1,57 @@
+name: indoor_navigation
+description: Indoor navigation system using UWB positioning with ESP WD-1000 devices
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.3
+  provider: ^6.1.1
+  equatable: ^2.0.5
+
+  # Firebase - ปิดชั่วคราว (Temporarily disabled)
+  # firebase_core: ^2.24.2
+  # firebase_auth: ^4.15.3
+  # cloud_firestore: ^4.13.6
+
+  # Bluetooth & Connectivity
+  flutter_blue_plus: ^1.31.15
+  permission_handler: ^11.1.0
+
+  # UI Components
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+
+  # Navigation & Pathfinding
+  collection: ^1.18.0
+  vector_math: ^2.1.4
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/floor_plans/
+    - assets/icons/
+
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
