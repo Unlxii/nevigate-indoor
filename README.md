@@ -302,14 +302,3 @@ lib/
 ## 👨‍💻 ผู้พัฒนา
 
 ติดต่อ: [Your Email]
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 ขอบคุณ
-
-- Flutter Team
-- Firebase Team
-- Flutter Blue Plus Contributors
-- ESP WD-1000 Community
